@@ -7,7 +7,8 @@ Tips
 - Just install tmux to machine you want to remote
 
 ##### Tmux to remote server
-
+    $ssh <user>@<hostname> -t "tmux_commands"
+    
     $ssh <user>@<hostname> -t tmux new -s <your_session_name> 
 
     $ssh franheit@192.168.1.10 -t tmux new -s remote_to_server
